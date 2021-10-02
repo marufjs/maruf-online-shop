@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Home from './Home';
+// import Home from './Home';
 
 function CardHome({ cardImg, title, description, regularPrice, specialPrice }) {
   console.log(cardImg);

@@ -141,6 +141,7 @@ const AboutUs = styled.div`
       a {
         color: #fff;
         padding: 10px 20px;
+        font-size: 14px;
       }
     }
   }
