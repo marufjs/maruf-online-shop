@@ -27,92 +27,8 @@ function CardHome({ cardImg, title, description, regularPrice, specialPrice }) {
           <Buttons>
             <a href="/">Add To Cart</a>
             <a href="/">Compare</a>
-            {/* <i class="fas fa-heart"></i> */}
-            <i class="far fa-heart"></i>
-          </Buttons>
-        </CardDescription>
-      </Card>
-      <Card>
-        <img src="/images/monitor/asus.png" alt="" />
-        <CardDescription>
-          <h3>ASUS Monitor</h3>
-          <span>
-            lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet
-          </span>
-          <Rating>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </Rating>
-          <Price1>
-            Regular Price <span>66,750</span>
-          </Price1>
-          <Price2>
-            Special Price <span>62,500</span>
-          </Price2>
-          <Buttons>
-            <a href="/">Add To Cart</a>
-            <a href="/">Compare</a>
-            {/* <i class="fas fa-heart"></i> */}
-            <i class="far fa-heart"></i>
-          </Buttons>
-        </CardDescription>
-      </Card>
-      <Card>
-        <img src="/images/monitor/asus.png" alt="" />
-        <CardDescription>
-          <h3>ASUS Monitor</h3>
-          <span>
-            lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet
-          </span>
-          <Rating>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </Rating>
-          <Price1>
-            Regular Price <span>66,750</span>
-          </Price1>
-          <Price2>
-            Special Price <span>62,500</span>
-          </Price2>
-          <Buttons>
-            <a href="/">Add To Cart</a>
-            <a href="/">Compare</a>
-            {/* <i class="fas fa-heart"></i> */}
-            <i class="far fa-heart"></i>
-          </Buttons>
-        </CardDescription>
-      </Card>
-      <Card>
-        <img src="/images/monitor/asus.png" alt="" />
-        <CardDescription>
-          <h3>ASUS Monitor</h3>
-          <span>
-            lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet
-          </span>
-          <Rating>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </Rating>
-          <Price1>
-            Regular Price <span>66,750</span>
-          </Price1>
-          <Price2>
-            Special Price <span>62,500</span>
-          </Price2>
-          <Buttons>
-            <a href="/">Add To Cart</a>
-            <a href="/">Compare</a>
-            {/* <i class="fas fa-heart"></i> */}
-            <i class="far fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            {/* <i class="far fa-heart"></i> */}
           </Buttons>
         </CardDescription>
       </Card>
@@ -187,12 +103,18 @@ const Buttons = styled.div`
     padding: 10px 20px;
     margin: 20px 0;
     cursor: pointer;
-    color: #000;
-    background: green;
+    color: #fff;
+    background-color: #5352ed;
     border-radius: 5px;
     font-weight: bold;
+    transition: all 0.4s;
+    &:hover {
+      background-color: #3742fa;
+    }
   }
   i {
     color: #e74c3c;
+    &:hover {
+    }
   }
 `;

@@ -84,13 +84,186 @@ function Home({ cardImg, title, description, regularPrice, specialPrice }) {
       <FeaturedProducts>
         <h2>Featured Products</h2>
         <p>Check & Get Your Desired Product !</p>
-        <CardHome
-          cardImg="./images/monitor/asus.png"
-          title="ASUS Monitor"
-          description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
-          regularPrice="66,750"
-          specialPrice="62,500"
-        />
+        <CardContainer1>
+          <CardHome
+            cardImg="./images/dextop/dextop1.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/hdd/hdd1.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/laptop/laptop1.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/monitor/monitor1.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+        </CardContainer1>
+        <CardContainer2>
+          <CardHome
+            cardImg="./images/motherboard/motherboard1.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/ram/ram1.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/ssd/ssd1.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/dextop/dextop2.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+        </CardContainer2>
+        <CardContainer3>
+          <CardHome
+            cardImg="./images/hdd/hdd2.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/laptop/laptop2.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/monitor/monitor2.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/motherboard/motherboard2.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+        </CardContainer3>
+        <CardContainer4>
+          <CardHome
+            cardImg="./images/ram/ram2.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/ssd/ssd2.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/dextop/dextop3.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/hdd/hdd3.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+        </CardContainer4>
+        <CardContainer5>
+          <CardHome
+            cardImg="./images/laptop/laptop3.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/monitor/monitor3.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/motherboard/motherboard3.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/ram/ram3.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+        </CardContainer5>
+        <CardContainer6>
+          <CardHome
+            cardImg="./images/ssd/ssd3.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/dextop/dextop4.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/hdd/hdd4.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+          <CardHome
+            cardImg="./images/laptop/laptop4.png"
+            title="ASUS Monitor"
+            description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+            regularPrice="66,750"
+            specialPrice="62,500"
+          />
+        </CardContainer6>
       </FeaturedProducts>
     </Container>
   );
@@ -192,4 +365,15 @@ const FeaturedProducts = styled.div`
     padding: 0 0 20px 0;
   }
 `;
-const CardItem = styled.div``;
+const CardContainer1 = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+`;
+const CardContainer2 = styled(CardContainer1)``;
+const CardContainer3 = styled(CardContainer1)``;
+const CardContainer4 = styled(CardContainer1)``;
+const CardContainer5 = styled(CardContainer1)``;
+const CardContainer6 = styled(CardContainer1)``;
