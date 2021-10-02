@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import CardHome from './CardHome';
 
-function Home(cardImg, title, description, rating, regularPrice, specialPrice) {
+function Home({ cardImg, title, description, regularPrice, specialPrice }) {
   return (
     <Container>
       <FeaturedCategory>
@@ -83,124 +84,13 @@ function Home(cardImg, title, description, rating, regularPrice, specialPrice) {
       <FeaturedProducts>
         <h2>Featured Products</h2>
         <p>Check & Get Your Desired Product !</p>
-        <CardRow>
-          <Card>
-            <img src="/images/monitor/asus.png" alt="" />
-            <CardDescription>
-              <h3>ASUS Monitor</h3>
-              <span>
-                lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit
-                amet
-              </span>
-              <Rating>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </Rating>
-              <Price1>
-                Regular Price <span>66,750</span>
-              </Price1>
-              <Price2>
-                Special Price <span>62,500</span>
-              </Price2>
-              <Buttons>
-                <a href="/">Add To Cart</a>
-                <a href="/">Compare</a>
-                {/* <i class="fas fa-heart"></i> */}
-                <i class="far fa-heart"></i>
-              </Buttons>
-            </CardDescription>
-          </Card>
-          <Card>
-            <img src="/images/monitor/asus.png" alt="" />
-            <CardDescription>
-              <h3>ASUS Monitor</h3>
-              <span>
-                lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit
-                amet
-              </span>
-              <Rating>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </Rating>
-              <Price1>
-                Regular Price <span>66,750</span>
-              </Price1>
-              <Price2>
-                Special Price <span>62,500</span>
-              </Price2>
-              <Buttons>
-                <a href="/">Add To Cart</a>
-                <a href="/">Compare</a>
-                {/* <i class="fas fa-heart"></i> */}
-                <i class="far fa-heart"></i>
-              </Buttons>
-            </CardDescription>
-          </Card>
-          <Card>
-            <img src="/images/monitor/asus.png" alt="" />
-            <CardDescription>
-              <h3>ASUS Monitor</h3>
-              <span>
-                lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit
-                amet
-              </span>
-              <Rating>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </Rating>
-              <Price1>
-                Regular Price <span>66,750</span>
-              </Price1>
-              <Price2>
-                Special Price <span>62,500</span>
-              </Price2>
-              <Buttons>
-                <a href="/">Add To Cart</a>
-                <a href="/">Compare</a>
-                {/* <i class="fas fa-heart"></i> */}
-                <i class="far fa-heart"></i>
-              </Buttons>
-            </CardDescription>
-          </Card>
-          <Card>
-            <img src="/images/monitor/asus.png" alt="" />
-            <CardDescription>
-              <h3>ASUS Monitor</h3>
-              <span>
-                lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit
-                amet
-              </span>
-              <Rating>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </Rating>
-              <Price1>
-                Regular Price <span>66,750</span>
-              </Price1>
-              <Price2>
-                Special Price <span>62,500</span>
-              </Price2>
-              <Buttons>
-                <a href="/">Add To Cart</a>
-                <a href="/">Compare</a>
-                {/* <i class="fas fa-heart"></i> */}
-                <i class="far fa-heart"></i>
-              </Buttons>
-            </CardDescription>
-          </Card>
-        </CardRow>
+        <CardHome
+          cardImg="./images/monitor/asus.png"
+          title="ASUS Monitor"
+          description="lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet"
+          regularPrice="66,750"
+          specialPrice="62,500"
+        />
       </FeaturedProducts>
     </Container>
   );
@@ -302,77 +192,4 @@ const FeaturedProducts = styled.div`
     padding: 0 0 20px 0;
   }
 `;
-const CardRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 0;
-`;
-
-const Card = styled.div`
-  background: #fff;
-  width: 300px;
-  height: 480px;
-  color: #000;
-  margin: 0 20px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    width: 80%;
-    height: 45%;
-  }
-  h3 {
-    text-align: center;
-    padding: 10px 0;
-    padding: 0 0 15px 0;
-  }
-  span {
-    opacity: 0.8;
-    width: 100%;
-  }
-  &:hover {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-  }
-`;
-const CardDescription = styled.div`
-  padding: 10px;
-`;
-const Rating = styled.div`
-  display: flex;
-  flex-direction: row;
-  padding: 10px 0;
-  color: #e74c3c;
-`;
-const Price1 = styled.div`
-  span {
-    color: #e74c3c;
-  }
-`;
-const Price2 = styled.div`
-  span {
-    color: #e74c3c;
-  }
-`;
-const Buttons = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  a {
-    padding: 10px 20px;
-    margin: 20px 0;
-    cursor: pointer;
-    color: #000;
-    background: green;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  i {
-    color: #e74c3c;
-  }
-`;
+const CardItem = styled.div``;
